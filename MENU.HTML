@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8" >
+<HTML>
+<head>
+<title>
+</title>
+<style>
+	header{
+            background:white;
+            padding:15px 30px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+            position:sticky;
+            top:0;
+        }
+        .logo{
+            font-size:35px;
+            font-weight:bold;
+            color:#5c3214;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .logo img{
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        .logo span{
+            font-size:18px;
+            display:block;
+            color:#a36b3f;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:#5c3214;
+            margin:0 15px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#c47b42;
+        }
+	.hero-menu{
+		background: #f5e8dc;
+		text-align: center;
+		padding: 70px;
+	}
+	.hero-menu h1{
+		font-size: 55px;
+		color: #5c3214;
+		margin-bottom: 20px;
+	}
+	.hero-menu p{
+		max-width: 700px;
+		margin: auto;
+		font-size: 20px;
+		line-height: 1.7;
+		color: #6d4b32;
+	}
+	.titulo{
+            text-align:center;
+            font-size:45px;
+            margin-bottom:50px;
+            color: #5c3214;
+        }
+    .cardss{
+            display:flex;
+            justify-content:center;
+            gap:40px;
+            flex-wrap:wrap;
+            max-width: 700px;
+            margin: auto;
+        }
+    .cards{
+    		display:flex;
+            justify-content:center;
+            gap:40px;
+            flex-wrap:wrap;
+    }
+    .card{
+            background:white;
+            width: 320px;
+            border-radius:20px;
+            overflow:hidden;
+            box-shadow:0 4px 15px rgba(0,0,0,0.1);
+            transition:0.3s;
+            cursor: pointer;
+        }
+    .card-content{
+            padding:20px;
+        }  
+    .card-content h4{
+    	margin-top: 15px;
+    	font-size: 24px;
+    	color: #5c3214;
+    } 
+    .card:hover{
+    	transform: translateY(-10px);
+    	box-shadow: 0 10px 25px rgba(0, 0, 0, .18);
+    }
+    .card img{
+            width:100%;
+            height:230px;
+            object-fit:cover;
+        } 
+    .estrellas{
+    	color: #d4a017;
+    	font-size: 18px;
+    	margin: 8px 0;
+    }
+    .titulo span{
+    	color: #a36b3f;
+    }
+    .waps{
+    	text-decoration: none;
+    	color: inherit;
+    }
+    .ig{
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	gap: 12px;
+    	margin: 25px 0;
+    	text-decoration: none;
+    	color: #2d170b;
+    }
+    .ig img{
+    	width: 42px;
+    	transition: .3s;
+    	border-radius: 20px;
+    }
+    .ig:hover img{
+    	transform: scale(1.15);
+    }
+    .ig:hover{
+    	color: #d8b48c;
+    }
+    .pedido{
+    	font-size: 18px;
+    	line-height: 1.6;
+    }
+    footer{
+            background:#2d170b;
+            color:white;
+            text-align:center;
+            padding:30px;
+            margin-top:40px;
+        }
+</style>
+</head>
+<body>
+	<header>
+
+        <div class="logo">
+            <img src="multi/logs.png" alt="logo">
+            <span>CHURROS & COFFE´S</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="MENU.HTML">Menú</a>
+            <a href="combos.html">Combos</a>
+            
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+    </header>
+<main>
+<section class="hero-menu">
+	<div class="hero-menu-text">
+		<h1><span>◆</span> Men&uacute<span>◆</span> </h1>
+        <p>
+        	Descubre nuestro caf&eacutes, churros y postres preparados con ingredientes frescos y mucho sabor.
+        </p>
+	</div>
+</section>
+<section class="menu-cafes">
+	<h2 class="titulo"><span>◆</span> Bebidas Calientes <span>◆</span> </h2>
+
+	<div class="cardss">
+		<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+		<div class="card">
+			<img src="multi/esp.jpeg">
+			<div class="card-content">
+			<h3>Espresso</h3>
+			<p class="estrellas">★★★★★</p>
+			<p>
+				Caf&eacute intenso preparado con granos seleccionados y un sabor concentrado. 
+			</p>
+			<h4>L. 45</h4>
+		</div>
+	</div>
+	</a>
+	<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+		<div class="card">
+			<img src="multi/amec.jpeg">
+			<div class="card-content">
+			<h3>Americano</h3>
+			<p class="estrellas">★★★★★</p>
+			<p>Caf&eacute suave y arom&aacutetico, preparado con espresso y agua caliente para un sabor equilibrado.
+			</p>
+			<h4>L. 50</h4>
+		</div>
+	</div>
+</a>
+<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+	<div class="card">
+		<img src="multi/lat.jpeg">
+		<div class="card-content">
+			<h3>Latte</h3>	
+			<p class="estrellas">★★★★★</p>
+			<p>Deliciosa combinaci&oacuten de espresso y leche vaporizada, con una textura suave y cremosa.
+			</p>
+			<h4>L. 70</h4>
+		</div>
+	</div>
+</a>
+<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+	<div class="card">
+		<img src="multi/choco.jpeg">
+			<div class="card-content">
+				<h3>Chocolate caliente</h3>
+				<p class="estrellas">★★★★★</p>
+				<p>
+					Chocolate caliente preparado con una receta cremosa y un intenso sabor a cacao, ideal para acompañar nuestros churros.
+				</p>
+				<h4>L. 65</h4>
+			</div>
+		</div>
+	</div>
+</a>
+</section>
+<section>
+	<h2 class="titulo"><span>◆</span>Bebidas Fr&iacuteas<span>◆</span></h2>
+	<div class="cards">
+		<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+		<div class="card">
+			<img src="multi/lim.jpeg">
+			<div class="card-content">
+				<h3>Limonada</h3>
+				<p class="estrellas">★★★★★</p>
+				<p>
+					Bebida preparada con limones frescos, hielo y un toque de dulzura para refrescar cualquier momento.
+				</p>
+				<h4>L. 60</h4>
+			</div>
+		</div>
+	</a>
+	<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+		<div class="card">
+			<img src="multi/mal.jpg">
+			<div class="card-content">
+				<h3>Malteada de chocolate</h3>
+				<p class="estrellas">★★★★★</p>
+				<p>
+					Deliciosa malteada preparada con helado de chocolate y leche, de textura cremosa y sabor intenso.
+				</p>
+				<h4>L. 85</h4>
+			</div>
+		</div>
+	</a>
+	<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+		<div class="card">
+			<img src="multi/fre.jpeg">
+			<div class="card-content">
+				<h3>Malteada de fresa</h3>
+				<p class="estrellas">★★★★★</p>
+				<p>
+					Refrescante malteada elaborada con helado de fresa y leche, suave, cremosa y llena de sabor.
+				</p>
+				<h4>L. 85</h4>
+			</div>
+		</div>
+	</div>
+</a>
+</section>
+<section>
+	<h2 class="titulo"><span>◆</span>Churros<span>◆</span></h2>
+	<div class="cards">
+		<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+		<div class="card">
+			<img src="multi/clas.jpeg">
+			<div class="card-content">
+				<h3>Churros Clásicos</h3>
+				<p class="estrellas">★★★★★</p>
+				<p>
+					Churros recién preparados, cubiertos con azúcar y canela para disfrutar de su sabor clásico y crujiente.
+				</p>
+				<h4>L. 50</h4>
+			</div>
+		</div>
+	</a>
+	<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+		<div class="card">
+			<img src="multi/rell.jpg">
+			<div class="card-content">
+				<h3>Churros Rellenos</h3>
+				<p class="estrellas">★★★★★</p>
+				<p>
+					Deliciosos churros rellenos de chocolate, con una textura crujiente por fuera y suave por dentro.
+				</p>
+				<h4>L. 70</h4>
+			</div>
+		</div>
+	</a>
+	<a href="https://api.whatsapp.com/message/34GF5HAZ5PNHM1?autoload=1&app_absent=0" class="waps">
+		<div class="card">
+			<img src="multi/top.jpg">
+			<div class="card-content">
+				<h3>Churros con Toppings</h3>
+				<p class="estrellas">★★★★★</p>
+				<p>
+					Churros acompañados de chocolate y una selección de toppings para una experiencia llena de sabor.
+				</p>
+				<h4>L. 80</h4>
+			</div>
+		</div>
+	</div>
+</a>
+</section>
+</main>
+<footer>
+	<h2>Churros & Coffe´s</h2>
+	<p>
+		Nuestro sabor tu mejor expresión 
+	</p>
+	<a href="https://www.instagram.com/churros_and._coffe?utm_source=ig_web_button_share_sheet&igsh=ZDNIZDc0MzlxNw==" target="_blank" class="ig">
+		<img src="multi/ig.jpg" alt="instagram">
+	</a>
+	<p class="pedido">
+		Tu próximo antojo está a un clic. <br>
+		Síguenos en Instagram y realiza tu pedido.
+	</p>
+</footer>
+</body>
+</HTML>
